@@ -1,7 +1,8 @@
 # 20220901_002_animation_black-white
 superCode
 
-Link zur Seite: 
+Link zur Seite: https://weimingtay.github.io/20220901_002_animation_black-white/
+
 Aufgabenstellung
 
 Für diese Übung werden wir @keyframes verwenden. Dafür machen wir das Äquivalent eines Stroboskop-Blitzers.
