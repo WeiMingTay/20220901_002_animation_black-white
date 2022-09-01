@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkslategray;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: 35vh;
+    background-color: white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+@keyframes MJ {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
+div {
+    width: 10vw;
+    height: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    animation-name: MJ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    }
+div:nth-of-type(1) {
+    animation-duration: 2000ms;
+}
+div:nth-of-type(2) {
+    animation-duration: 1000ms;
+}
+div:nth-of-type(3) {
+    animation-duration: 500ms;
+}
+div:nth-of-type(4) {
+    animation-duration: 250ms;
+}
+div:nth-of-type(5) {
+    animation-duration: 125ms;
+}
+p {
+    filter: invert(50%);
+}
